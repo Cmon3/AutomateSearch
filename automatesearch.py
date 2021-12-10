@@ -143,4 +143,4 @@ def banks_loop(banks):
     return
 
 
-banks_loop(banks_lis)
+banks_loop(banks_list)
