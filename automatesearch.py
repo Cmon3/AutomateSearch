@@ -8,7 +8,7 @@ Original file is located at
 """
 
 from googlesearch import search
-from googleapiclient.discovery import build
+from googleapiclient.discovery import buildhroku
 from google.oauth2 import service_account
 from dotenv import load_dotenv
 import os
@@ -18,7 +18,7 @@ load_dotenv()
 
 SCOPES = ['https://www.googleapis.com/auth/spreadsheets']
 # json with downloaded from the API
-SERVICE_ACCOUNT_FILE = 'keys.json'
+SERVICE_ACCOUNT_FILE = os.getenv('keys')
 
 creds = None
 creds = service_account.Credentials.from_service_account_file(
