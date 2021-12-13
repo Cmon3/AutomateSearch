@@ -18,7 +18,7 @@ load_dotenv()
 
 SCOPES = ['https://www.googleapis.com/auth/spreadsheets']
 # json with downloaded from the API
-SERVICE_ACCOUNT_FILE = os.getenv('keys')
+SERVICE_ACCOUNT_FILE = os.getenv('GOOGLE_APPLICATION_CREDENTIALS')
 
 creds = None
 creds = service_account.Credentials.from_service_account_file(
