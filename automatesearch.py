@@ -8,7 +8,7 @@ Original file is located at
 """
 
 from googlesearch import search
-from googleapiclient.discovery import buildhroku
+from googleapiclient.discovery import build
 from google.oauth2 import service_account
 from dotenv import load_dotenv
 import os
