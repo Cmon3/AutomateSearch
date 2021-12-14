@@ -12,17 +12,25 @@ from googleapiclient.discovery import build
 from google.oauth2 import service_account
 from dotenv import load_dotenv
 import os
+import json
 
 load_dotenv()
 
 
 SCOPES = ['https://www.googleapis.com/auth/spreadsheets']
-# json with downloaded from the API
-SERVICE_ACCOUNT_FILE = os.getenv('GOOGLE_APPLICATION_CREDENTIALS')
+
+# the json credentials stored as env variable
+json_str = os.environ.get('GOOGLE_APPLICATION_CREDENTIALS')
+
+# generate json - if there are errors here remove newlines in .env
+json_data = json.loads(json_str)
+
+# the private_key needs to replace \n parsed as string literal with escaped newlines
+json_data['private_key'] = json_data['private_key'].replace('\\n', '\n')
 
 creds = None
-creds = service_account.Credentials.from_service_account_file(
-    SERVICE_ACCOUNT_FILE, scopes=SCOPES)
+creds = service_account.Credentials.from_service_account_info(
+    json_data, scopes=SCOPES)
 
 # The ID, range and new sheet range of the spreadsheet.
 SPREADSHEET_ID = os.getenv('G_SPREADSHEET_ID')
