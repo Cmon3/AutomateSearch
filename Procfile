@@ -1,1 +1,1 @@
-web: python automatesearch.py
+app: python automatesearch.py
