@@ -37,11 +37,11 @@ like in this heroku screenshot:
 
 ![Screenshot5](/Images/heroku_vars.PNG)
 
-you can follow this information, and take into account pasting the whole json of your google credentials:
+you can follow the next guide, and take into account pasting the whole json of your google credentials:
 
 [Digital Ocean Docs](https://docs.digitalocean.com/products/app-platform/how-to/use-environment-variables/)
 
-then this guide on how to create a droplet (which I think would be the best way) which will run on a specific date:
+then this guide on how to create a droplet (which I think would be the best way) that will run on a specific date:
 
 [Running automated python scripts in the cloud with cronjobs](https://medium.com/@cprkrn/running-automated-python-scripts-in-the-cloud-with-cronjobs-47476b33f817)
 
@@ -50,7 +50,7 @@ this guide in DO docs also talks about running a script on an automated schedule
 [Cómo usar Cron para automatizar tareas en Ubuntu 18.04](https://www.digitalocean.com/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-es)
 
 
-
+##Cheers
 
 			
       
