@@ -37,7 +37,7 @@ like in this heroku screenshot:
 
 ![Screenshot5](/Images/heroku_vars.PNG)
 
-you can follow this information, and take into account pasting the whole json file from your google credentials:
+you can follow this information, and take into account pasting the whole json of your google credentials:
 
 [Digital Ocean Docs](https://docs.digitalocean.com/products/app-platform/how-to/use-environment-variables/)
 
