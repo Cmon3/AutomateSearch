@@ -5,6 +5,10 @@ Results will be exported to Sheet 3
 
 ![Screenshot1](/Images/RangeAndSheetId.PNG)
 
+screadsheet id can be found in:
+
+![Screenshot4](/Images/spreadsheetId.PNG)
+
 Keywords included in the search query are "API" and "developer"\
 Keywords excluded in the search are "apidashboard", "apitracker" and "linkedin"
 
@@ -23,7 +27,6 @@ Environment variables normally defined in a .env file, spreadsheet Id and google
 
 ![Screenshot3](/Images/env.PNG)
 
-![Screenshot4](/Images/spreadsheetId.PNG)
 
 should be defined inside as:
 
