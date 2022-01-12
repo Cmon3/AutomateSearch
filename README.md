@@ -49,8 +49,11 @@ this guide in DO docs also talks about running a script on an automated schedule
 
 [Cómo usar Cron para automatizar tareas en Ubuntu 18.04](https://www.digitalocean.com/community/tutorials/how-to-use-cron-to-automate-tasks-ubuntu-1804-es)
 
+## How to run the code in Heroku
 
-##Cheers
+...
+
+## Cheers!
 
 			
       
