@@ -3,12 +3,12 @@
 Company names will be taken from row 2 on Sheet 2\
 Results will be exported to Sheet 3
 
-![Screenshot1](Images\keywords.PNG)
+![Screenshot1](\Images\RangeAndSheetId.PNG)
 
 Keywords included in the search query are "API" and "developer"\
 Keywords excluded in the search are "apidashboard", "apitracker" and "linkedin"
 
-![Screenshot2](Images\keywords.PNG)
+![Screenshot2](\Images\keywords.PNG)
 
 In case of adding, removing any keyword, or changing Sheet names these should be modified in the code.
 
@@ -21,9 +21,9 @@ Once the code is run, results in sheet 3 (3. Results!A1:C) will be overwritten.
 
 Environment variables normally defined in a .env file, spreadsheet Id and google api credentials:
 
-![Screenshot3](Images\env.PNG)
+![Screenshot3](\Images\env.PNG)
 
-![Screenshot4](Images\spreadsheetId.PNG)
+![Screenshot4](\Images\spreadsheetId.PNG)
 
 should be defined inside as:
 
@@ -32,7 +32,7 @@ GOOGLE_APPLICATION_CREDENTIALS
 
 like in this heroku screenshot:
 
-![Screenshot5](Images\heroku_vars.PNG)
+![Screenshot5](\Images\heroku_vars.PNG)
 
 you can follow this information:
 
