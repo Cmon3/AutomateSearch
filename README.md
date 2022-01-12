@@ -17,7 +17,7 @@ Once the code is run, results in sheet 3 (3. Results!A1:C) will be overwritten.
 			
       
 
-## To run the code to Digital Ocean:
+## To run the code in Digital Ocean:
 
 Environment variables normally defined in a .env file, spreadsheet Id and google api credentials:
 
