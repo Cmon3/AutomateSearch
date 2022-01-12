@@ -28,7 +28,7 @@ Environment variables normally defined in a .env file, spreadsheet Id and google
 ![Screenshot3](/Images/env.PNG)
 
 
-should be defined inside as:
+should be defined in DO as:
 
 G_SPREADSHEET_ID\
 GOOGLE_APPLICATION_CREDENTIALS
@@ -37,7 +37,7 @@ like in this heroku screenshot:
 
 ![Screenshot5](/Images/heroku_vars.PNG)
 
-you can follow this information:
+you can follow this information, and take into account pasting the whole json file from your google credentials:
 
 [Digital Ocean Docs](https://docs.digitalocean.com/products/app-platform/how-to/use-environment-variables/)
 
