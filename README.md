@@ -89,7 +89,7 @@ Be aware that before executing the app from the command line, to do "Heroku logi
 
 ## Other simple way to run the app without having to deploy it
 
-Another way to running the code without deploying it, would be create a notebook in https://colab.research.google.com/
+Another way to running the code without deploying it, would be to create a notebook in https://colab.research.google.com/
 
 Copy the code there, create and upload a .env file to the root directory:
 
