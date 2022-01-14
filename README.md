@@ -61,7 +61,7 @@ Define the enviromental variables in settings as seen before:
 
 Deploy the app using git hub or the Heroku CLI
 
-![Screenshot7](/Images/heroku_github.PNG)
+![Screenshot7](/Images/heroku_github.png)
 
 Now to run the app once, first check that dynos are OFF otherwise the script will run endlessly:
 
