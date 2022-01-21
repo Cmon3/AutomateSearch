@@ -9,6 +9,8 @@ screadsheet id can be found in:
 
 ![Screenshot4](/Images/spreadsheetId.PNG)
 
+Be sure to share the google sheet file with the email given for the Google API service account.
+
 Keywords included in the search query are "API" and "developer"\
 Keywords excluded in the search are "apidashboard", "apitracker" and "linkedin"
 
